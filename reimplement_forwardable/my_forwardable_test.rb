@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require_relative 'my_forwardable'
 
 class Foo
-  extend MyForwadable
+  extend MyForwardable
 
   attr_reader :internal
   def initialize
